@@ -2,11 +2,11 @@ function init(){
 	console.log('test');
 	let gyroscope = new Gyroscope({
 		frequency: 60,
-		//referenceFrame: 'device',
+		referenceFrame: 'device',
 	});
 	gyroscope.onreading = () => {
-		console.log(gyroscope);
-		console.log('val');
+		//console.log(gyroscope);
+		//console.log('val');
 	document.getElementById('gyro').innerText = JSON.stringify(gyroscope);
 	//document.getElementById('gyro').innerText = gyroscope.x;
 	};
@@ -152,8 +152,8 @@ addCategory("OG Pokemon", ogPokemonList);
 }
 
 Promise.all([
-window.navigator.permissions.query({name:'accelerometer'}),
-window.navigator.permissions.query({name:'magnetometer'}),
+//window.navigator.permissions.query({name:'accelerometer'}),
+//window.navigator.permissions.query({name:'magnetometer'}),
 window.navigator.permissions.query({name:'gyroscope'})
 ]).then(permissions => 
 {
