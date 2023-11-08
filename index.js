@@ -7,9 +7,22 @@ function init(){
 	gyroscope.onreading = () => {
 		//console.log(gyroscope);
 		//console.log('val');
-	//document.getElementById('gyro').innerText = JSON.stringify(gyroscope);
-	document.getElementById('gyro').innerText = `x: ${gyroscope.x}, y: ${gyroscope.y}, z: ${gyroscope.z}`;
+		//document.getElementById('gyro').innerText = JSON.stringify(gyroscope);
+		//document.getElementById('gyro').innerText = `x: ${gyroscope.x}, y: ${gyroscope.y}, z: ${gyroscope.z}`;
+		if (playing && !debounce) {
+			if (gyroscope.y > 0.8) {
+				setTimeout(clearDebounce, 1000);
+				correct();
+				debounce = true;
+			}
+			if (gyroscope.y < -0.8) {
+				setTimeout(clearDebounce, 1000);
+				incorrect();
+				debounce = true;
+			}
+		}
 	};
+	
 	gyroscope.onerror = err => console.log(err);
 	gyroscope.onactivate = e => {console.log('active');
 console.log(e); 
@@ -18,6 +31,11 @@ console.log(e);
 	console.log(gyroscope);
 	let started = gyroscope.start();
 	console.log(gyroscope);
+}
+
+let debounce = false;
+function clearDebounce() {
+	debounce = false;
 }
 
 function addCategory(name, words) {
@@ -78,6 +96,7 @@ countdown;
 	}, 1000);
 }
 
+let playing = false;
 let interval;
 let timeout;
 let percent = 100;
@@ -95,6 +114,7 @@ function startRound() {
 `${percent}%`;
 	}, 100);
 
+	playing = true;
 		
 	//guesses = [{card: cardList.splice(Math.floor(Math.random() * cardList.length), 1)[0]}];
 	//document.getElementsByClassName('card')[0].children[0].innerText = guesses[0].card;
@@ -139,6 +159,7 @@ function endRound() {
 document.getElementById('summary-recap').appendChild(word);
 		
 	});
+	playing = false;
 	showSummary();
 }
 
