@@ -1,8 +1,8 @@
 function init(){
 	console.log('test');
-	let gyroscope = new AbsoluteOrientationSensor({
+	let gyroscope = new Gyroscope({
 		frequency: 60,
-		referenceFrame: 'device',
+		//referenceFrame: 'device',
 	});
 	gyroscope.onreading = () => {
 		console.log(gyroscope);
