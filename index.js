@@ -12,7 +12,13 @@ function init(){
 		//document.getElementById('gyro').innerText = `x: ${gyroscope.x}, y: ${gyroscope.y}, z: ${gyroscope.z}`;
 		document.getElementById('gyro').innerText = Math.round(tilt * 100) / 100;
 		if (playing && !debounce) {
-			tilt += gyroscope.y;
+			if (gyroscope.y > 0.3) {
+				tilt += gyroscope.y;
+			}
+			if (gyroscope.y < -0.3) {
+				tilt += gyroscope.y;
+			}
+			//tilt += gyroscope.y;
 			if (tilt > 20) {
 				setTimeout(clearDebounce, 2000);
 				correct();
