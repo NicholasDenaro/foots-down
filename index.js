@@ -10,12 +10,12 @@ function init(){
 		//document.getElementById('gyro').innerText = JSON.stringify(gyroscope);
 		//document.getElementById('gyro').innerText = `x: ${gyroscope.x}, y: ${gyroscope.y}, z: ${gyroscope.z}`;
 		if (playing && !debounce) {
-			if (gyroscope.y > 0.8) {
+			if (gyroscope.y > 2) {
 				setTimeout(clearDebounce, 1000);
 				correct();
 				debounce = true;
 			}
-			if (gyroscope.y < -0.8) {
+			if (gyroscope.y < -2) {
 				setTimeout(clearDebounce, 1000);
 				incorrect();
 				debounce = true;
