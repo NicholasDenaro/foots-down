@@ -12,13 +12,13 @@ function init(){
 		//document.getElementById('gyro').innerText = `x: ${gyroscope.x}, y: ${gyroscope.y}, z: ${gyroscope.z}`;
 		if (playing && !debounce) {
 			tilt += gyroscope.y;
-			if (tilt > 10) {
+			if (tilt > 20) {
 				setTimeout(clearDebounce, 2000);
 				correct();
 				debounce = true;
 				tilt = 0
 			}
-			if (tilt < -10) {
+			if (tilt < -20) {
 				setTimeout(clearDebounce, 2000);
 				incorrect();
 				debounce = true;
