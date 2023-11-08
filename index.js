@@ -4,21 +4,25 @@ function init(){
 		frequency: 60,
 		referenceFrame: 'device',
 	});
+	let tilt = 0;
 	gyroscope.onreading = () => {
 		//console.log(gyroscope);
 		//console.log('val');
 		//document.getElementById('gyro').innerText = JSON.stringify(gyroscope);
 		//document.getElementById('gyro').innerText = `x: ${gyroscope.x}, y: ${gyroscope.y}, z: ${gyroscope.z}`;
 		if (playing && !debounce) {
-			if (gyroscope.y > 2) {
-				setTimeout(clearDebounce, 1000);
+			tilt += gyroscope.y;
+			if (tilt > 10) {
+				setTimeout(clearDebounce, 2000);
 				correct();
 				debounce = true;
+				tilt = 0
 			}
-			if (gyroscope.y < -2) {
-				setTimeout(clearDebounce, 1000);
+			if (tilt < -10) {
+				setTimeout(clearDebounce, 2000);
 				incorrect();
 				debounce = true;
+				tilt = 0;
 			}
 		}
 	};
