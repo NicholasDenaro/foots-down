@@ -9,30 +9,35 @@ function init(){
 	gyroscope.onreading = () => {
 		//console.log(gyroscope);
 		//console.log('val');
-		document.getElementById('gyro').innerText = Math.round(gyroscope.quaternion[1] * 100) / 100;
+		//document.getElementById('gyro').innerText = Math.round(gyroscope.quaternion[1] * 100) / 100;
 		//document.getElementById('gyro').innerText = `x: ${gyroscope.x}, y: ${gyroscope.y}, z: ${gyroscope.z}`;
-		/*document.getElementById('gyro').innerText = Math.round(tilt * 100) / 100;
+		//document.getElementById('gyro').innerText = Math.round(tilt * 100) / 100;
+		let tiltval = gyroscope.quaternion[1];
+		if (tiltval > 0.5 && tiltval < 0.7) {
+			debounce = false;
+		}
+		
 		if (playing && !debounce) {
-			if (gyroscope.y > 0.3) {
+			/*if (gyroscope.y > 0.3) {
 				tilt += gyroscope.y;
 			}
 			if (gyroscope.y < -0.3) {
 				tilt += gyroscope.y;
-			}
+			}*/
 			//tilt += gyroscope.y;
-			if (tilt > 50) {
-				setTimeout(clearDebounce, 1000);
+			if (tiltval > 0.9) {
+				//setTimeout(clearDebounce, 1000);
 				correct();
 				debounce = true;
 				tilt = 0
 			}
-			if (tilt < -50) {
-				setTimeout(clearDebounce, 1000);
+			if (tiltval < 0.3) {
+				//setTimeout(clearDebounce, 1000);
 				incorrect();
 				debounce = true;
 				tilt = 0;
 			}
-		}*/
+		}
 	};
 	
 	gyroscope.onerror = err => console.log(err);
