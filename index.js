@@ -7,8 +7,8 @@ function init(){
 	gyroscope.onreading = () => {
 		console.log(gyroscope);
 		console.log('val');
-		//document.getElementById('gyro').innerText = JSON.stringify(gyroscope.quaternion);
-	document.grtElementById('gyro').innerText = gyroscope.x;
+	//document.getElementById('gyro').innerText = JSON.stringify(gyroscope.quaternion);
+	document.getElementById('gyro').innerText = gyroscope.x;
 	};
 	gyroscope.onerror = err => console.log(err);
 	gyroscope.onactivate = e => {console.log('active');
