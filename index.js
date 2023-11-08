@@ -7,6 +7,7 @@ function init(){
 	gyroscope.onreading = () => {
 		console.log(gyroscope);
 		console.log('val');
+		document.getElementById('gyro').innerText = JSON.stringify(gyroscope.quaternion);
 	};
 	gyroscope.onerror = err => console.log(err);
 	gyroscope.onactivate = e => {console.log('active');
