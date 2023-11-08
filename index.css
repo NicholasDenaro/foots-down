@@ -94,5 +94,7 @@ color: darkgray;
 
 #back {
 font-size: 24;
+    position: absolute;
+    bottom: 0;
 }
 
