@@ -10,6 +10,7 @@ function init(){
 		//console.log('val');
 		//document.getElementById('gyro').innerText = JSON.stringify(gyroscope);
 		//document.getElementById('gyro').innerText = `x: ${gyroscope.x}, y: ${gyroscope.y}, z: ${gyroscope.z}`;
+		document.getElementById('gyro').innerText = Math.round(tilt * 100) / 100;
 		if (playing && !debounce) {
 			tilt += gyroscope.y;
 			if (tilt > 20) {
