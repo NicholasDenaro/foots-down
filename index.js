@@ -19,14 +19,14 @@ function init(){
 				tilt += gyroscope.y;
 			}
 			//tilt += gyroscope.y;
-			if (tilt > 20) {
-				setTimeout(clearDebounce, 2000);
+			if (tilt > 50) {
+				setTimeout(clearDebounce, 1000);
 				correct();
 				debounce = true;
 				tilt = 0
 			}
-			if (tilt < -20) {
-				setTimeout(clearDebounce, 2000);
+			if (tilt < -50) {
+				setTimeout(clearDebounce, 1000);
 				incorrect();
 				debounce = true;
 				tilt = 0;
