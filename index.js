@@ -1,6 +1,7 @@
 function init(){
 	console.log('test');
-	let gyroscope = new Gyroscope({
+	let gyroscope = new AbsoluteOrientationSensor({
+	//let gyroscope = new Gyroscope({
 		frequency: 60,
 		referenceFrame: 'device',
 	});
@@ -8,9 +9,9 @@ function init(){
 	gyroscope.onreading = () => {
 		//console.log(gyroscope);
 		//console.log('val');
-		//document.getElementById('gyro').innerText = JSON.stringify(gyroscope);
+		document.getElementById('gyro').innerText = Math.round(gyroscope.quaternion[0] * 100) / 100;
 		//document.getElementById('gyro').innerText = `x: ${gyroscope.x}, y: ${gyroscope.y}, z: ${gyroscope.z}`;
-		document.getElementById('gyro').innerText = Math.round(tilt * 100) / 100;
+		/*document.getElementById('gyro').innerText = Math.round(tilt * 100) / 100;
 		if (playing && !debounce) {
 			if (gyroscope.y > 0.3) {
 				tilt += gyroscope.y;
@@ -31,7 +32,7 @@ function init(){
 				debounce = true;
 				tilt = 0;
 			}
-		}
+		}*/
 	};
 	
 	gyroscope.onerror = err => console.log(err);
