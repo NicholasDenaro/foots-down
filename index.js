@@ -12,7 +12,9 @@ function init(){
 	};
 	gyroscope.onerror = err => console.log(err);
 	gyroscope.onactivate = e => {console.log('active');
-console.log(e); alert('gryo active');};
+console.log(e); 
+				     //alert('gryo active');
+				    };
 	console.log(gyroscope);
 	let started = gyroscope.start();
 	console.log(gyroscope);
