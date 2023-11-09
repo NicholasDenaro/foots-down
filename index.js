@@ -205,7 +205,8 @@ addCategory("Jobs", jobsList);
 addCategory("Fast Food Chains", fastFoodList);
 addCategory("Video Game Characters", videogameCharactersList);
 addCategory("OG Pokemon", ogPokemonList);
-addCategory("Office Talk", officeList)
+addCategory("Office Talk", officeList);
+addCategory("Celebrities", celebritiesList);
 }
 
 Promise.all([
@@ -635,4 +636,57 @@ const officeList = [
 'Picture frame',
 'Book',
 'Magazine',
+];
+
+const celebritiesList = [
+  "Beyoncé",
+  "Tom Cruise",
+  "Oprah Winfrey",
+  "Barack Obama",
+  "Taylor Swift",
+  "Brad Pitt",
+  "Emma Watson",
+  "Elon Musk",
+  "Rihanna",
+  "Leonardo DiCaprio",
+  "Ellen DeGeneres",
+  "Justin Bieber",
+  "Kim Kardashian",
+  "Dwayne Johnson",
+  "Ariana Grande",
+  "Bill Gates",
+  "Angelina Jolie",
+  "Johnny Depp",
+  "Jennifer Lopez",
+  "Will Smith",
+  "Lady Gaga",
+  "Robert Downey Jr.",
+  "Drake",
+  "Selena Gomez",
+  "Keanu Reeves",
+  "Meryl Streep",
+  "Ed Sheeran",
+  "Katy Perry",
+  "Daniel Radcliffe",
+  "Emma Stone",
+  "BTS",
+  "Madonna",
+  "George Clooney",
+  "Stephen Curry",
+  "Serena Williams",
+  "Lionel Messi",
+  "Cristiano Ronaldo",
+  "LeBron James",
+  "Roger Federer",
+  "Usain Bolt",
+  "Michael Jordan",
+  "Michelle Obama",
+  "Malala Yousafzai",
+  "Dalai Lama",
+  "Nelson Mandela",
+  "Albert Einstein",
+  "William Shakespeare",
+  "Marilyn Monroe",
+  "Elvis Presley",
+  "Michael Jackson"
 ];
