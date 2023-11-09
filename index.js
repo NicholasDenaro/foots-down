@@ -9,10 +9,10 @@ function init(){
 	gyroscope.onreading = () => {
 		//console.log(gyroscope);
 		//console.log('val');
-		document.getElementById('gyro').innerText = Math.round(gyroscope.quaternion[1] * 100) / 100;
+		document.getElementById('gyro').innerText = Math.round(gyroscope.quaternion[2] * 100) / 100;
 		//document.getElementById('gyro').innerText = `x: ${gyroscope.x}, y: ${gyroscope.y}, z: ${gyroscope.z}`;
 		//document.getElementById('gyro').innerText = Math.round(tilt * 100) / 100;
-		let tiltval = gyroscope.quaternion[1];
+		let tiltval = gyroscope.quaternion[2];
 		if (tiltval > 0.5 && tiltval < 0.7) {
 			debounce = false;
 		}
