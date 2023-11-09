@@ -231,7 +231,7 @@ Promise.all([
 window.navigator.permissions.query({name:'gyroscope'})
 ]).then(permissions => 
 {
-document.body.requestFullscreen();
+document.documentElement.requestFullscreen();
 // Disable screen rotation
 screen.lockOrientation("portrait-primary");;
 
