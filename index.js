@@ -64,7 +64,7 @@ function hideAnswer() {
 
 function showCorrect() {
 	const ans = document.getElementById('answer');
-	and.innerText = 'Correct'
+	ans.innerText = 'Correct'
 	ans.className = 'answer-correct';
 }
 
