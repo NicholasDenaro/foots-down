@@ -107,6 +107,10 @@ color: darkgray;
     background-color: orange;
 }
 
+.answer-hide {
+    display: none;
+}
+
 #back {
 font-size: 24;
     position: absolute;
