@@ -92,6 +92,8 @@ color: darkgray;
 }
 
 #answer {
+    top: 0;
+    left: 0;
     color: white;
     width: 95vw;
     height: 100vh;
