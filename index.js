@@ -219,7 +219,7 @@ addCategory("Mother Nature", natureList);
 addCategory("Minecraft", minecraftList);
 addCategory("Complete the Idiom", idiomList);
 addCategory("Myths", mythList);
-//addCategory("", );
+addCategory("Attractive Actors", attractiveActorsList);
 //addCategory("", );
 //addCategory("", );
 //addCategory("", );
@@ -936,3 +936,57 @@ const mythList = [
   "Genie",
   "Nessie"
 ];
+
+const attractiveActorsList = [
+    "Brad Pitt",
+    "Scarlett Johansson",
+    "Idris Elba",
+    "Emma Watson",
+    "Chris Hemsworth",
+    "Gal Gadot",
+    "Henry Cavill",
+    "Jennifer Lawrence",
+    "Tom Cruise",
+    "Angelina Jolie",
+    "Ryan Reynolds",
+    "Margot Robbie",
+    "Leonardo DiCaprio",
+    "Natalie Portman",
+    "Jason Momoa",
+    "Emma Stone",
+    "Hugh Jackman",
+    "Mila Kunis",
+    "Will Smith",
+    "Anne Hathaway",
+    "Chris Evans",
+    "Zoe Saldana",
+    "Robert Downey Jr.",
+    "Keira Knightley",
+    "Dwayne Johnson",
+    "Sandra Bullock",
+    "Chadwick Boseman",
+    "Jessica Alba",
+    "Johnny Depp",
+    "Halle Berry",
+    "Chris Pratt",
+    "Charlize Theron",
+    "Tom Hiddleston",
+    "Megan Fox",
+    "Denzel Washington",
+    "Reese Witherspoon",
+    "Benedict Cumberbatch",
+    "Jennifer Aniston",
+    "George Clooney",
+    "Nicole Kidman",
+    "Michael B. Jordan",
+    "Julia Roberts",
+    "Daniel Craig",
+    "Penelope Cruz",
+    "Keanu Reeves",
+    "Salma Hayek",
+    "Christian Bale",
+    "Cameron Diaz",
+    "Bradley Cooper",
+    "Kate Winslet"
+];
+
