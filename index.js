@@ -205,6 +205,7 @@ addCategory("Jobs", jobsList);
 addCategory("Fast Food Chains", fastFoodList);
 addCategory("Video Game Characters", videogameCharactersList);
 addCategory("OG Pokemon", ogPokemonList);
+addCategory("Office Talk", officeList)
 }
 
 Promise.all([
@@ -581,4 +582,57 @@ const videogameCharactersList = [
 	'Commander Shepard',
 	'Garrus',
 	'Liara',
+];
+
+const officeList = [
+'Desk',
+'Chair',
+'Computer',
+'Keyboard',
+'Mouse',
+'Monitor',
+'Printer',
+'Scanner',
+'Copier',
+'Fax machine',
+'Phone',
+'Headset',
+'Webcam',
+'Microphone',
+'Speakers',
+'Lamp',
+'Clock',
+'Calendar',
+'Pen',
+'Pencil',
+'Eraser',
+'Sharpener',
+'Highlighter',
+'Marker',
+'Stapler',
+'Paper clip',
+'Rubber band',
+'Binder clip',
+'Tape',
+'Glue',
+'Scissors',
+'Ruler',
+'Calculator',
+'Notebook',
+'Paper',
+'Envelope',
+'Folder',
+'File cabinet',
+'Drawer',
+'Trash can',
+'Recycling bin',
+'Shredder',
+'Coffee maker',
+'Mug',
+'Water bottle',
+'Snack',
+'Plant',
+'Picture frame',
+'Book',
+'Magazine',
 ];
