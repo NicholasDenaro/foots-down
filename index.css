@@ -34,7 +34,7 @@ flex-wrap: wrap;
 
 .category {
 width: calc(33vw - 25px);
-height: calc(33vh - 20px);
+height: calc(33vw - 25px);
 margin: 10px;
 color: white;
 font-size: 4vw;
