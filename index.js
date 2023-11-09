@@ -210,6 +210,12 @@ addCategory("Celebrities", celebritiesList);
 addCategory("Snacks", snacksList);
 addCategory("Holidays", holidaysList);
 addCategory("Hobbies", hobbiesList);
+addCategory("Sports", sportsList);
+//addCategory("", );
+//addCategory("", );
+//addCategory("", );
+//addCategory("", );
+//addCategory("", );
 }
 
 Promise.all([
@@ -699,4 +705,6 @@ const snacksList = ["Chips","Popcorn","Pretzels","Crackers","Cheese","Nuts","Tra
 const holidaysList = ["New Year's Day","Martin Luther King Jr. Day","Valentine's Day","Presidents' Day","St. Patrick's Day","Easter","Earth Day","Mother's Day","Memorial Day","Father's Day","Independence Day","Labor Day","Columbus Day","Halloween","Veterans Day","Thanksgiving","Christmas","Hanukkah","Kwanzaa","Chinese New Year","Lunar New Year","Diwali","Holi","Eid al-Fitr","Eid al-Adha","Ramadan","Rosh Hashanah","Yom Kippur","Passover","Purim","Mardi Gras","Carnival","Cinco de Mayo","Bastille Day","Canada Day","Australia Day","Anzac Day","Boxing Day","Black Friday","Cyber Monday","Groundhog Day","April Fools' Day","Arbor Day","Flag Day","Juneteenth","Patriot Day","Indigenous Peoples' Day","Election Day","Pearl Harbor Day","Human Rights Day"];
 
 const hobbiesList = ["Reading","Writing","Drawing","Painting","Photography","Cooking","Baking","Gardening","Knitting","Crocheting","Sewing","Quilting","Embroidery","Origami","Scrapbooking","Calligraphy","Pottery","Woodworking","Metalworking","Jewelry making","Candle making","Soap making","Brewing","Chess","Sudoku","Crossword","Jigsaw","Puzzle","Card game","Board game","Video game","Role-playing game","Cosplay","LARPing","Magic","Yoga","Meditation","Pilates","Dancing","Singing","Playing an instrument","Composing music","Podcasting","Blogging","Vlogging","Streaming","Coding","Hacking","Volunteering","Collecting"];
+
+const sportsList = ["Soccer","Football","Basketball","Baseball","Tennis","Golf","Hockey","Cricket","Rugby","Volleyball","Badminton","Table tennis","Swimming","Diving","Gymnastics","Athletics","Cycling","Skiing","Snowboarding","Skating","Boxing","Wrestling","Martial arts","Judo","Karate","Taekwondo","Fencing","Archery","Shooting","Equestrian","Polo","Rodeo","Racing","Formula One","NASCAR","MotoGP","Sailing","Rowing","Canoeing","Kayaking","Surfing","Windsurfing","Fishing","Chess","Poker","Darts","Billiards","Bowling","Curling","Bobsleigh"];
 
