@@ -215,7 +215,7 @@ addCategory("Instruments", instrumentsList);
 addCategory("Onomatopoeia", soundsList);
 addCategory("Scrum Master", agileList);
 addCategory("Sweet tooth", candyList);
-//addCategory("", );
+addCategory("Mother Nature", natureList);
 //addCategory("", );
 //addCategory("", );
 //addCategory("", );
@@ -722,3 +722,4 @@ const agileList = ["Scrum","Kanban","Sprint","Backlog","User story","Epic","Feat
 
 const candyList = ["Chocolate","Gummy","Jelly","Lollipop","Hard candy","Toffee","Caramel","Fudge","Marshmallow","Cotton candy","Licorice","Mints","Gum","Candy cane","Candy corn","Skittles","M&M's","Hershey's","Snickers","Kit Kat","Twix","Milky Way","Reese's","Butterfinger","Twizzlers","Sour Patch Kids","Starburst","Jolly Rancher","Nerds","Smarties","Tic Tac","Lifesavers","Werther's","Rolo","Crunch","Almond Joy","Mounds","Heath","Baby Ruth","PayDay","100 Grand","Laffy Taffy","Airheads","Pop Rocks","Warheads","Swedish Fish","Haribo","Jelly Belly","Pez"];
 
+const natureList = ["Sun","Moon","Star","Sky","Cloud","Rain","Snow","Wind","Storm","Lightning","Thunder","Rainbow","Earth","Mountain","Hill","Valley","Volcano","River","Lake","Ocean","Sea","Wave","Island","Beach","Sand","Rock","Coral","Reef","Forest","Tree","Leaf","Flower","Grass","Moss","Mushroom","Animal","Bird","Fish","Insect","Reptile","Mammal","Amphibian","Butterfly","Bee","Spider","Snake","Frog","Deer","Bear","Wolf"];
