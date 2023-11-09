@@ -91,6 +91,21 @@ color: black;
 color: darkgray;
 }
 
+.answer-card {
+    color: white;
+    width: 95vw;
+    height: 100vh;
+    position: absolute;
+    border-radius: 10px;
+}
+
+.answer-correct {
+    background-color: green;
+}
+
+.answer-pass {
+    background-color: orange;
+}
 
 #back {
 font-size: 24;
