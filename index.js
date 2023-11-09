@@ -212,7 +212,7 @@ addCategory("Holidays", holidaysList);
 addCategory("Hobbies", hobbiesList);
 addCategory("Sports", sportsList);
 addCategory("Instruments", instrumentsList);
-//addCategory("", );
+addCategory("Onomatopoeia", soundsList);
 //addCategory("", );
 //addCategory("", );
 //addCategory("", );
@@ -709,3 +709,5 @@ const hobbiesList = ["Reading","Writing","Drawing","Painting","Photography","Coo
 const sportsList = ["Soccer","Football","Basketball","Baseball","Tennis","Golf","Hockey","Cricket","Rugby","Volleyball","Badminton","Table tennis","Swimming","Diving","Gymnastics","Athletics","Cycling","Skiing","Snowboarding","Skating","Boxing","Wrestling","Martial arts","Judo","Karate","Taekwondo","Fencing","Archery","Shooting","Equestrian","Polo","Rodeo","Racing","Formula One","NASCAR","MotoGP","Sailing","Rowing","Canoeing","Kayaking","Surfing","Windsurfing","Fishing","Chess","Poker","Darts","Billiards","Bowling","Curling","Bobsleigh"];
 
 const instrumentsList = ["Piano","Guitar","Violin","Cello","Flute","Clarinet","Saxophone","Trumpet","Trombone","Tuba","French horn","Harp","Banjo","Mandolin","Ukulele","Drums","Cymbals","Tambourine","Maracas","Bongo","Conga","Timpani","Xylophone","Marimba","Vibraphone","Glockenspiel","Triangle","Bell","Chime","Gong","Harmonica","Accordion","Keyboard","Synthesizer","Organ","Recorder","Oboe","Bassoon","Piccolo","English horn","Cor anglais","Bagpipe","Lute","Lyre","Zither","Dulcimer","Sitar","Koto","Erhu","Didgeridoo"];
+
+const soundsList = ["Bang","Boom","Crash","Clang","Clap","Snap","Pop","Fizz","Sizzle","Hiss","Whizz","Zoom","Vroom","Roar","Growl","Bark","Meow","Moo","Quack","Tweet","Chirp","Caw","Hoot","Buzz","Hum","Beep","Ding","Ring","Click","Clack","Tick","Tock","Knock","Thump","Thud","Slam","Splash","Drip","Drop","Plop","Gush","Swish","Swoosh","Whir","Whirl","Snore","Sneeze","Cough","Ahem"];
