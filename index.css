@@ -16,7 +16,7 @@ display: flex;
 border-radius: 10px;
 }
 
-.card > div, #countdown > div {
+.card > div, #countdown > div, #answer > div {
 margin: auto;
 text-align: center;
 transform: rotate(-90deg);
