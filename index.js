@@ -213,7 +213,7 @@ addCategory("Hobbies", hobbiesList);
 addCategory("Sports", sportsList);
 addCategory("Instruments", instrumentsList);
 addCategory("Onomatopoeia", soundsList);
-//addCategory("", );
+addCategory("Scrum Master", agileList);
 //addCategory("", );
 //addCategory("", );
 }
@@ -711,3 +711,6 @@ const sportsList = ["Soccer","Football","Basketball","Baseball","Tennis","Golf",
 const instrumentsList = ["Piano","Guitar","Violin","Cello","Flute","Clarinet","Saxophone","Trumpet","Trombone","Tuba","French horn","Harp","Banjo","Mandolin","Ukulele","Drums","Cymbals","Tambourine","Maracas","Bongo","Conga","Timpani","Xylophone","Marimba","Vibraphone","Glockenspiel","Triangle","Bell","Chime","Gong","Harmonica","Accordion","Keyboard","Synthesizer","Organ","Recorder","Oboe","Bassoon","Piccolo","English horn","Cor anglais","Bagpipe","Lute","Lyre","Zither","Dulcimer","Sitar","Koto","Erhu","Didgeridoo"];
 
 const soundsList = ["Bang","Boom","Crash","Clang","Clap","Snap","Pop","Fizz","Sizzle","Hiss","Whizz","Zoom","Vroom","Roar","Growl","Bark","Meow","Moo","Quack","Tweet","Chirp","Caw","Hoot","Buzz","Hum","Beep","Ding","Ring","Click","Clack","Tick","Tock","Knock","Thump","Thud","Slam","Splash","Drip","Drop","Plop","Gush","Swish","Swoosh","Whir","Whirl","Snore","Sneeze","Cough","Ahem"];
+
+const agileList = ["Scrum","Kanban","Sprint","Backlog","User story","Epic","Feature","Task","Bug","Acceptance criteria","Definition of done","Estimation","Velocity","Burndown chart","Burnup chart","Cumulative flow diagram","Lead time","Cycle time","Throughput","Work in progress","Product owner","Scrum master","Development team","Stakeholder","Customer","Sprint planning","Daily scrum","Sprint review","Sprint retrospective","Product backlog refinement","Scrum board","Scrum of scrums","Kanban board","Swimlane","Card","Column","Limit","Pull system","Agile manifesto"];
+
