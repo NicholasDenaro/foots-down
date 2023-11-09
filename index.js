@@ -217,7 +217,7 @@ addCategory("Scrum Master", agileList);
 addCategory("Sweet tooth", candyList);
 addCategory("Mother Nature", natureList);
 addCategory("Minecraft", minecraftList);
-//addCategory("", );
+addCategory("Complete the Idiom", idiomList);
 //addCategory("", );
 //addCategory("", );
 //addCategory("", );
@@ -825,4 +825,56 @@ const minecraftList = [
   "Map",
   "Compass",
   "Clock"
+];
+
+const idiomList = [
+  "...a dozen",
+  "a piece...",
+  "...and a leg",
+  "back to...",
+  "beat around...",
+  "better late...",
+  "break...",
+  "call it...",
+  "cut me...",
+  "...corners",
+  "easy...",
+  "...of hand",
+  "...off your chest",
+  "...cold shoulder",
+  "...drawing board",
+  "hit the nail...",
+  "in the heat...",
+  "it's not...",
+  "...off the hook",
+  "...long story short",
+  //"miss the boat",
+  "no pain...",
+  //"on the ball",
+  "once in a...",
+  //"pull [someone's] leg",
+  "...on ice",
+  "rain on...",
+  //"see eye to eye",
+  "spill the...",
+  "take it with...",
+  "the best of...",
+  "the last...",
+  "...the weather",
+  "bite off more than...",
+  //"burn the midnight oil",
+  //"...and a leg",
+  "don't judge a book...",
+  "...silver lining",
+  //"have a blast",
+  "it takes two...",
+  "kill two birds...",
+  "...out of the bag",
+  "play devil's...",
+  "sit on the...",
+  "the elephant...",
+  "throw caution...",
+  "when pigs...",
+  //"you can't judge a book by its cover",
+  "...your lips"
 ];
