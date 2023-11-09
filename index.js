@@ -218,7 +218,7 @@ addCategory("Sweet tooth", candyList);
 addCategory("Mother Nature", natureList);
 addCategory("Minecraft", minecraftList);
 addCategory("Complete the Idiom", idiomList);
-//addCategory("", );
+addCategory("Myths", mythList);
 //addCategory("", );
 //addCategory("", );
 //addCategory("", );
@@ -882,4 +882,57 @@ const idiomList = [
   "when pigs...",
   //"you can't judge a book by its cover",
   "...your lips"
+];
+
+const mythList = [
+  "Zeus",
+  "Odin",
+  "Hercules",
+  "Thor",
+  "Medusa",
+  "Athena",
+  "Loki",
+  "Aphrodite",
+  "Poseidon",
+  "Valkyrie",
+  "Minotaur",
+  "Cyclops",
+  "Apollo",
+  "Anubis",
+  "Merlin",
+  "Arthur",
+  "Excalibur",
+  "Dragon",
+  "Phoenix",
+  "Unicorn",
+  "Pegasus",
+  "Hydra",
+  "Sphinx",
+  "Cerberus",
+  "Nymph",
+  "Satyr",
+  "Centaur",
+  "Faun",
+  "Pixie",
+  "Fairy",
+  "Elf",
+  "Dwarf",
+  "Giant",
+  "Troll",
+  "Ogre",
+  "Goblin",
+  "Griffin",
+  "Chimera",
+  "Kraken",
+  "Leviathan",
+  "Manticore",
+  "Basilisk",
+  "Werewolf",
+  "Vampire",
+  "Zombie",
+  "Ghost",
+  "Witch",
+  "Wizard",
+  "Genie",
+  "Nessie"
 ];
