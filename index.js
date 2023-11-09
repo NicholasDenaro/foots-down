@@ -233,7 +233,7 @@ window.navigator.permissions.query({name:'gyroscope'})
 {
 document.body.requestFullscreen();
 // Disable screen rotation
-screen.orientation.lock = "portrait-primary";
+screen.lockOrientation("portrait-primary");;
 
 console.log(permissions);
 console.log('start');
