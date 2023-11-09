@@ -6,7 +6,7 @@ box-sizing: border-box;
 margin: 0px;
 }
 
-.card, #countdown, #answer {
+.card, #countdown {
 color: white;
 width: calc(95vw - 20px);
 height: calc(100% - 20px);
@@ -103,10 +103,12 @@ color: darkgray;
 
 .answer-correct {
     background-color: green;
+    display: flex;
 }
 
 .answer-pass {
     background-color: orange;
+    display: flex;
 }
 
 .answer-hide {
