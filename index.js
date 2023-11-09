@@ -208,6 +208,7 @@ addCategory("OG Pokemon", ogPokemonList);
 addCategory("Office Talk", officeList);
 addCategory("Celebrities", celebritiesList);
 addCategory("Snacks", snacksList);
+addCategory("Holidays", holidaysList);
 }
 
 Promise.all([
@@ -693,4 +694,6 @@ const celebritiesList = [
 ];
 
 const snacksList = ["Chips","Popcorn","Pretzels","Crackers","Cheese","Nuts","Trail mix","Granola bar","Energy bar","Protein bar","Cookie","Brownie","Muffin","Cake","Pie","Donut","Croissant","Scone","Bread","Butter","Jam","Peanut butter","Jelly","Nutella","Fruit","Apple","Banana","Orange","Grape","Berry","Vegetable","Carrot","Celery","Cucumber","Tomato","Dip","Hummus","Guacamole","Salsa","Yogurt","Ice cream","Popsicle","Smoothie","Milkshake","Chocolate","Candy","Gummy","Jelly bean","Marshmallow","Cereal"];
+
+const holidaysList = ["New Year's Day","Martin Luther King Jr. Day","Valentine's Day","Presidents' Day","St. Patrick's Day","Easter","Earth Day","Mother's Day","Memorial Day","Father's Day","Independence Day","Labor Day","Columbus Day","Halloween","Veterans Day","Thanksgiving","Christmas","Hanukkah","Kwanzaa","Chinese New Year","Lunar New Year","Diwali","Holi","Eid al-Fitr","Eid al-Adha","Ramadan","Rosh Hashanah","Yom Kippur","Passover","Purim","Mardi Gras","Carnival","Cinco de Mayo","Bastille Day","Canada Day","Australia Day","Anzac Day","Boxing Day","Black Friday","Cyber Monday","Groundhog Day","April Fools' Day","Arbor Day","Flag Day","Juneteenth","Patriot Day","Indigenous Peoples' Day","Election Day","Pearl Harbor Day","Human Rights Day"];
 
