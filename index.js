@@ -19,6 +19,7 @@ function init(){
 		let tiltval = mat4[10];
 		if (tiltval > -0.2 && tiltval < 0.2) {
 			debounce = false;
+			hideAnswer();
 		}
 		
 		if (playing && !debounce) {
@@ -58,19 +59,19 @@ console.log(e);
 
 function hideAnswer() {
 	const ans = document.getElementById('answer');
-	ans.className = 'hide';
+	ans.className = 'answer-hide';
 }
 
 function showCorrect() {
 	const ans = document.getElementById('answer');
 	and.innerText = 'Correct'
-	ans.className = 'correct';
+	ans.className = 'answer-correct';
 }
 
 function showPass() {
 	const ans = document.getElementById('answer');
 	ans.innerText = 'Pass';
-	ans.className = 'pass';
+	ans.className = 'answer-pass';
 }
 
 let debounce = false;
@@ -166,10 +167,12 @@ function startRound() {
 function correct() {
 	guesses.at(-1).correct = true;
 	nextCard();
+	showCorrect();
 }
 
 function incorrect() {
 	nextCard();
+	showPass();
 }
 
 function nextCard() {
