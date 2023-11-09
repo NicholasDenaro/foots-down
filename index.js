@@ -214,9 +214,15 @@ addCategory("Sports", sportsList);
 addCategory("Instruments", instrumentsList);
 addCategory("Onomatopoeia", soundsList);
 addCategory("Scrum Master", agileList);
+addCategory("Sweet tooth", candyList);
 //addCategory("", );
 //addCategory("", );
-}
+//addCategory("", );
+//addCategory("", );
+//addCategory("", );
+//addCategory("", );
+//addCategory("", );
+//addCategory("", );}
 
 Promise.all([
 //window.navigator.permissions.query({name:'accelerometer'}),
@@ -713,4 +719,6 @@ const instrumentsList = ["Piano","Guitar","Violin","Cello","Flute","Clarinet","S
 const soundsList = ["Bang","Boom","Crash","Clang","Clap","Snap","Pop","Fizz","Sizzle","Hiss","Whizz","Zoom","Vroom","Roar","Growl","Bark","Meow","Moo","Quack","Tweet","Chirp","Caw","Hoot","Buzz","Hum","Beep","Ding","Ring","Click","Clack","Tick","Tock","Knock","Thump","Thud","Slam","Splash","Drip","Drop","Plop","Gush","Swish","Swoosh","Whir","Whirl","Snore","Sneeze","Cough","Ahem"];
 
 const agileList = ["Scrum","Kanban","Sprint","Backlog","User story","Epic","Feature","Task","Bug","Acceptance criteria","Definition of done","Estimation","Velocity","Burndown chart","Burnup chart","Cumulative flow diagram","Lead time","Cycle time","Throughput","Work in progress","Product owner","Scrum master","Development team","Stakeholder","Customer","Sprint planning","Daily scrum","Sprint review","Sprint retrospective","Product backlog refinement","Scrum board","Scrum of scrums","Kanban board","Swimlane","Card","Column","Limit","Pull system","Agile manifesto"];
+
+const candyList = ["Chocolate","Gummy","Jelly","Lollipop","Hard candy","Toffee","Caramel","Fudge","Marshmallow","Cotton candy","Licorice","Mints","Gum","Candy cane","Candy corn","Skittles","M&M's","Hershey's","Snickers","Kit Kat","Twix","Milky Way","Reese's","Butterfinger","Twizzlers","Sour Patch Kids","Starburst","Jolly Rancher","Nerds","Smarties","Tic Tac","Lifesavers","Werther's","Rolo","Crunch","Almond Joy","Mounds","Heath","Baby Ruth","PayDay","100 Grand","Laffy Taffy","Airheads","Pop Rocks","Warheads","Swedish Fish","Haribo","Jelly Belly","Pez"];
 
