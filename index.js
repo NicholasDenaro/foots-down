@@ -34,14 +34,14 @@ function init(){
 				//setTimeout(clearDebounce, 1000);
 				correct();
 				debounce = true;
-				hideAnswer();
+				
 				tilt = 0
 			}
 			if (tiltval < -0.8) {
 				//setTimeout(clearDebounce, 1000);
 				incorrect();
 				debounce = true;
-				hideAnswer();
+				
 				tilt = 0;
 			}
 		}
