@@ -16,8 +16,8 @@ function init(){
 		//document.getElementById('gyro').innerText = Math.round(tilt * 100) / 100;
 		//gyroscope.populateMatrix(mat4);
 		
-		let tiltval = gyroscope.quaternion[2];
-		if (tiltval > 0.5 && tiltval < 0.7) {
+		let tiltval = mat4[10];
+		if (tiltval > -0.2 && tiltval < 0.2) {
 			debounce = false;
 		}
 		
@@ -29,16 +29,18 @@ function init(){
 				tilt += gyroscope.y;
 			}*/
 			//tilt += gyroscope.y;
-			if (tiltval > 0.9) {
+			if (tiltval > 0.8) {
 				//setTimeout(clearDebounce, 1000);
 				correct();
 				debounce = true;
+				hideAnswer();
 				tilt = 0
 			}
-			if (tiltval < 0.3) {
+			if (tiltval < -0.8) {
 				//setTimeout(clearDebounce, 1000);
 				incorrect();
 				debounce = true;
+				hideAnswer();
 				tilt = 0;
 			}
 		}
@@ -52,6 +54,23 @@ console.log(e);
 	console.log(gyroscope);
 	let started = gyroscope.start();
 	console.log(gyroscope);
+}
+
+function hideAnswer() {
+	const ans = document.getElementById('answer');
+	ans.className = 'hide';
+}
+
+function showCorrect() {
+	const ans = document.getElementById('answer');
+	and.innerText = 'Correct'
+	ans.className = 'correct';
+}
+
+function showPass() {
+	const ans = document.getElementById('answer');
+	ans.innerText = 'Pass';
+	ans.className = 'pass';
 }
 
 let debounce = false;
