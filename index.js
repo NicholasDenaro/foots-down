@@ -207,6 +207,7 @@ addCategory("Video Game Characters", videogameCharactersList);
 addCategory("OG Pokemon", ogPokemonList);
 addCategory("Office Talk", officeList);
 addCategory("Celebrities", celebritiesList);
+addCategory("Snacks", snacksList);
 }
 
 Promise.all([
@@ -690,3 +691,6 @@ const celebritiesList = [
   "Elvis Presley",
   "Michael Jackson"
 ];
+
+const snacksList = ["Chips","Popcorn","Pretzels","Crackers","Cheese","Nuts","Trail mix","Granola bar","Energy bar","Protein bar","Cookie","Brownie","Muffin","Cake","Pie","Donut","Croissant","Scone","Bread","Butter","Jam","Peanut butter","Jelly","Nutella","Fruit","Apple","Banana","Orange","Grape","Berry","Vegetable","Carrot","Celery","Cucumber","Tomato","Dip","Hummus","Guacamole","Salsa","Yogurt","Ice cream","Popsicle","Smoothie","Milkshake","Chocolate","Candy","Gummy","Jelly bean","Marshmallow","Cereal"];
+
