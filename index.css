@@ -6,7 +6,7 @@ box-sizing: border-box;
 margin: 0px;
 }
 
-.card, #countdown {
+.card, #countdown, #answer {
 color: white;
 width: calc(95vw - 20px);
 height: calc(100% - 20px);
