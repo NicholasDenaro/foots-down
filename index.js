@@ -23,26 +23,15 @@ function init(){
 		}
 		
 		if (playing && !debounce) {
-			/*if (gyroscope.y > 0.3) {
-				tilt += gyroscope.y;
-			}
-			if (gyroscope.y < -0.3) {
-				tilt += gyroscope.y;
-			}*/
-			//tilt += gyroscope.y;
 			if (tiltval > 0.8) {
-				//setTimeout(clearDebounce, 1000);
-				correct();
-				debounce = true;
-				
-				tilt = 0
-			}
-			if (tiltval < -0.8) {
 				//setTimeout(clearDebounce, 1000);
 				incorrect();
 				debounce = true;
-				
-				tilt = 0;
+			}
+			if (tiltval < -0.8) {
+				//setTimeout(clearDebounce, 1000);
+				correct();
+				debounce = true;
 			}
 		}
 	};
@@ -64,13 +53,13 @@ function hideAnswer() {
 
 function showCorrect() {
 	const ans = document.getElementById('answer');
-	ans.innerText = 'Correct'
+	ans.children[0].innerText = 'Correct'
 	ans.className = 'answer-correct';
 }
 
 function showPass() {
 	const ans = document.getElementById('answer');
-	ans.innerText = 'Pass';
+	ans.children[0].innerText = 'Pass';
 	ans.className = 'answer-pass';
 }
 
@@ -156,7 +145,8 @@ function startRound() {
 	}, 100);
 
 	playing = true;
-		
+	debounce = false;
+	hideAnswer();
 	//guesses = [{card: cardList.splice(Math.floor(Math.random() * cardList.length), 1)[0]}];
 	//document.getElementsByClassName('card')[0].children[0].innerText = guesses[0].card;
 	guesses = [];	
