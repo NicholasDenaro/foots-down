@@ -5,13 +5,17 @@ function init(){
 		frequency: 60,
 		referenceFrame: 'device',
 	});
+	const mat4 = new Float32Array(16);
 	let tilt = 0;
 	gyroscope.onreading = () => {
 		//console.log(gyroscope);
 		//console.log('val');
-		document.getElementById('gyro').innerText = Math.round(gyroscope.quaternion.z * 100) / 100;
+		gyroscope.populateMatrix(mat4);
+		document.getElementById('gyro').innerText = Math.round(mat4[10] * 100) / 100;
 		//document.getElementById('gyro').innerText = `x: ${gyroscope.x}, y: ${gyroscope.y}, z: ${gyroscope.z}`;
 		//document.getElementById('gyro').innerText = Math.round(tilt * 100) / 100;
+		//gyroscope.populateMatrix(mat4);
+		
 		let tiltval = gyroscope.quaternion[2];
 		if (tiltval > 0.5 && tiltval < 0.7) {
 			debounce = false;
