@@ -196,7 +196,16 @@ document.getElementById('summary-recap').appendChild(word);
 	showSummary();
 }
 
-
+function resizeCardText() {
+	const card = document.getElementById('card');
+	const cardText = card.children[0];
+	const cbounds = card.getBoundingClientRect();
+	const ctbounds = cardText.getBoundingClientRect();
+	if (ctbounds.height > bounds.height) {
+		cardText.style.fontSize = `3vh`;
+		setTimeout(resizeCardText, 1);
+	}
+}
 
 function loadCategories() {
 showCategories();
