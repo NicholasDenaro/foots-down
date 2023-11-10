@@ -205,7 +205,7 @@ function resizeCardText() {
 	const cardText = card.children[0];
 	const cbounds = card.getBoundingClientRect();
 	const ctbounds = cardText.getBoundingClientRect();
-	if (ctbounds.height > bounds.height) {
+	if (ctbounds.height > bounds.height || ctbounds.width > bounds.width) {
 		cardText.style.fontSize = `3vh`;
 		setTimeout(resizeCardText, 1);
 	}
