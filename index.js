@@ -220,7 +220,7 @@ addCategory("Minecraft", minecraftList);
 addCategory("Complete the Idiom", idiomList);
 addCategory("Myths", mythList);
 addCategory("Attractive Actors", attractiveActorsList);
-//addCategory("", );
+addCategory("90's Kids", kids90List);
 //addCategory("", );
 //addCategory("", );
 }
@@ -988,5 +988,57 @@ const attractiveActorsList = [
     "Cameron Diaz",
     "Bradley Cooper",
     "Kate Winslet"
+];
+
+const kids90List = [
+    "Tamagotchi",
+    "Pokémon",
+    "Spice Girls",
+    "Beanie Babies",
+    "Nintendo 64",
+    "Backstreet Boys",
+    "Britney Spears",
+    "Furby",
+    "The Lion King",
+    "Friends",
+    "Pogs",
+    "The Matrix",
+    "Titanic",
+    "Harry Potter",
+    "Nirvana",
+    "The Simpsons",
+    "Toy Story",
+    "Jurassic Park",
+    "The Fresh Prince of Bel-Air",
+    "Rugrats",
+    "Dawson's Creek",
+    "Goosebumps",
+    "Power Rangers",
+    "The X-Files",
+    "Buffy the Vampire Slayer",
+    "The Spice World",
+    "Space Jam",
+    "Home Alone",
+    "Clueless",
+    "The Little Mermaid",
+    "Saved by the Bell",
+    "TLC",
+    "NSYNC",
+    "The Macarena",
+    "Skip-It",
+    "Super Soaker",
+    "Game Boy",
+    "Sonic the Hedgehog",
+    "Barbie",
+    "Lion King",
+    "Men in Black",
+    "Star Wars",
+    "The Baby-Sitters Club",
+    "Gargoyles",
+    "Hey Arnold!",
+    "Daria",
+    "The Magic School Bus",
+    "Bill Nye the Science Guy",
+    "Teletubbies"
 ];
 
