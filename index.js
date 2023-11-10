@@ -146,6 +146,7 @@ function startRound() {
 
 	playing = true;
 	debounce = false;
+	//document.getElementById('card')
 	hideAnswer();
 	//guesses = [{card: cardList.splice(Math.floor(Math.random() * cardList.length), 1)[0]}];
 	//document.getElementsByClassName('card')[0].children[0].innerText = guesses[0].card;
