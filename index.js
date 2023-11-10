@@ -205,7 +205,7 @@ addCategory("Jobs", jobsList);
 addCategory("Fast Food Chains", fastFoodList);
 addCategory("Video Game Characters", videogameCharactersList);
 addCategory("OG Pokemon", ogPokemonList);
-addCategory("Office Talk", officeList);
+addCategory("Around the Office", officeList);
 addCategory("Celebrities", celebritiesList);
 addCategory("Snacks", snacksList);
 addCategory("Holidays", holidaysList);
@@ -214,13 +214,19 @@ addCategory("Sports", sportsList);
 addCategory("Instruments", instrumentsList);
 addCategory("Onomatopoeia", soundsList);
 addCategory("Scrum Master", agileList);
-addCategory("Sweet tooth", candyList);
+addCategory("Sweet Tooth", candyList);
 addCategory("Mother Nature", natureList);
 addCategory("Minecraft", minecraftList);
 addCategory("Complete the Idiom", idiomList);
 addCategory("Myths", mythList);
 addCategory("Attractive Actors", attractiveActorsList);
 addCategory("90's Kids", kids90List);
+addCategory("College Courses", collegeCoursesList);
+//addCategory("", );
+//addCategory("", );
+//addCategory("", );
+//addCategory("", );
+//addCategory("", );
 //addCategory("", );
 //addCategory("", );
 }
@@ -1040,5 +1046,58 @@ const kids90List = [
     "The Magic School Bus",
     "Bill Nye the Science Guy",
     "Teletubbies"
+];
+
+const collegeCoursesList = [
+    "Calculus",
+    "Biology",
+    "Psychology",
+    "Economics",
+    "Philosophy",
+    "Chemistry",
+    "History",
+    "Literature",
+    "Physics",
+    "Sociology",
+    "Art",
+    "Music",
+    "Computer Science",
+    "Engineering",
+    "Business",
+    "Accounting",
+    "Marketing",
+    "Political Science",
+    "Anthropology",
+    "Geography",
+    "Astronomy",
+    "Statistics",
+    "Ethics",
+    "Law",
+    "Medicine",
+    "Nursing",
+    "Education",
+    "Communication",
+    "Journalism",
+    "Linguistics",
+    "Mathematics",
+    "Environmental Science",
+    "Religion",
+    "Theater",
+    "Dance",
+    "Architecture",
+    "Design",
+    "Criminal Justice",
+    "Social Work",
+    "Psychiatry",
+    "Neuroscience",
+    "Genetics",
+    "Biochemistry",
+    "Geology",
+    "Oceanography",
+    "Meteorology",
+    "Archeology",
+    "Classics",
+    "French",
+    "Spanish"
 ];
 
