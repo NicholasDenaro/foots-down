@@ -222,7 +222,7 @@ addCategory("Myths", mythList);
 addCategory("Attractive Actors", attractiveActorsList);
 addCategory("90's Kids", kids90List);
 addCategory("College Courses", collegeCoursesList);
-//addCategory("", );
+addCategory("Historical Figures", historicalFigureList);
 //addCategory("", );
 //addCategory("", );
 //addCategory("", );
@@ -1101,3 +1101,50 @@ const collegeCoursesList = [
     "Spanish"
 ];
 
+const historicalFigureList = [
+    "Abraham Lincoln",
+    "Albert Einstein",
+    "Alexander the Great",
+    "Anne Frank",
+    "Aristotle",
+    "Benjamin Franklin",
+    "Buddha",
+    "Charles Darwin",
+    "Cleopatra",
+    "Confucius",
+    "Dalai Lama",
+    "Elizabeth I",
+    "Gandhi",
+    "George Washington",
+    "Helen Keller",
+    "Henry VIII",
+    "Isaac Newton",
+    "Joan of Arc",
+    "John F. Kennedy",
+    "Julius Caesar",
+    "Leonardo da Vinci",
+    "Mahatma Gandhi",
+    "Malala Yousafzai",
+    "Marco Polo",
+    "Marie Curie",
+    "Martin Luther King Jr.",
+    "Marilyn Monroe",
+    "Moses",
+    "Muhammad",
+    "Napoleon Bonaparte",
+    "Nelson Mandela",
+    "Nicolaus Copernicus",
+    "Nostradamus",
+    "Plato",
+    "Queen Victoria",
+    "Rosa Parks",
+    "Sigmund Freud",
+    "Socrates",
+    "Steve Jobs",
+    "Thomas Edison",
+    "Tutankhamun",
+    "Vincent van Gogh",
+    "William Shakespeare",
+    "Winston Churchill",
+    "Wolfgang Amadeus Mozart",
+]
