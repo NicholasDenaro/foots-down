@@ -6,6 +6,11 @@ box-sizing: border-box;
 margin: 0px;
 }
 
+#info {
+    position: absolute;
+    top: 0;
+}
+
 .card, #countdown {
 color: white;
 width: calc(95vw - 20px);
@@ -76,7 +81,7 @@ overflow-y: scroll;
 width: 100%;
 text-align: center;
 bottom: 0;
-height: 80vh;
+height: 85vh;
 }
 
 #summary-recap > div {
@@ -116,7 +121,7 @@ color: darkgray;
 }
 
 #back {
-font-size: 10vh;
+font-size: 5vh;
 position: absolute;
 bottom: 0;
 }
