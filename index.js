@@ -147,6 +147,7 @@ function startRound() {
 	playing = true;
 	debounce = false;
 	//document.getElementById('card')
+	//resizeCardText();
 	hideAnswer();
 	//guesses = [{card: cardList.splice(Math.floor(Math.random() * cardList.length), 1)[0]}];
 	//document.getElementsByClassName('card')[0].children[0].innerText = guesses[0].card;
@@ -175,6 +176,8 @@ function nextCard() {
 cardList.length), 1)});
 	document.getElementsByClassName('card')[0].children[0].innerText =
 guesses.at(-1).card;
+	delete document.getElementById('card').children[0].style.fontSize;
+	setTimeout(resizeCardText,1);
 }
 
 function endRound() {
